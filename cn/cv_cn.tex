@@ -1,0 +1,82 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !TEX root = zys-cv-cn.tex
+\documentclass{cv_cn}
+
+%% basic personal info
+\def\name{王鑫}
+\def\phone{(+86) 13083675961}
+\def\email{wangxinhhhhhh@gmail.com}
+\def\LinkedIn{WxxW}
+\def\github{WxxW2002}
+\def\site{github.com/WxxW2002}
+
+\begin{document}
+\section{教育背景}
+\institution{上海交通大学}  \location{中国, 上海}\\
+\textit{信息安全工学学士}, 电子信息与电气工程学院 \ztime{2020年9月 --- (预计) 2024年6月}\\
+
+\begin{zitemize}
+  \item \textbf{全部课程学积分:} 89.6/100, 
+        \textbf{GPA:} 3.87/4.3, 
+        \textbf{专业排名:} 6/89, 
+        \textbf{CET6:} 556
+  \item \textbf{A+ 课程:} 
+        程序设计思想与方法（荣誉） (95/100),
+        信息论与编码 (95/100) 
+        等 16 门数理和计算机相关课程
+  \item \textbf{研究方向:} 
+        密码协议与算法，区块链与共识协议，隐私计算；机器学习在密码及安全领域的应用
+\end{zitemize}
+
+\section{科研经历}
+\textit{项目组成员}, 导师: \textbf{邱卫东教授} \ztime{2022年10月 --- 至今}
+\begin{zitemize}
+  \item \textbf{项目简介:} 当前国内外对于隐私泄露行为越来越重视, 各国政府对于维护数据安全和隐私信息都十分重视。本项目基于各个法律法规的要求，结合先进的人工智能技术，构建App违法违规收集和使用个人信息的自动化检测.
+  \item \textbf{研究内容:} 构建一个自动化的APP隐私检测平台，针对相关法律法规对app进行自动化的合规检测.
+\end{zitemize}
+
+%\textit{项目组成员}, 导师: \textbf{谷大武教授} \ztime{2023年3月 --- 2023年8月(预计)}
+%\begin{zitemize}
+%  \item \textbf{项目简介:} 2022年7月5日，美国NIST公布了即将标准化的4个后量子密码算法，用于对抗量子计算机的攻击。本项目将研究前人工作，提出可能的新的误用攻击方法，形成软件包，用于发现和验证未来后量子密码软件应用中可能存在的误用问题。
+%  \item \textbf{研究内容:} 构建后量子密码标准算法的误用问题分析软件包
+%\end{zitemize}
+
+
+\section{开发项目}
+\textbf{网络嗅探器Wirecat}\enskip \underline{\href{https://github.com/ysyszheng/wirecat}{\faGithub}}
+\begin{zitemize}
+  \item 一个基于 Qt 平台, 主要由 C++ 语言编写的网络嗅探器软件. 用于捕获和分析网络流量. 其抓包和解析的准确度与 Wireshark 等主流软件接近.
+  \item 底层使用 libpcap 库捕获原始网络数据包, 实现了数据包解析, 过滤, 内容查找, IP 分片重组等功能.
+\end{zitemize}
+
+\textbf{交大食堂评价网站}\enskip \underline{\href{https://github.com/WxxW2002/SJTU-canteen}{\faGithub}}
+\begin{zitemize}
+  \item 交大食堂美食及评价网站. 前端使用 HTML, CSS, JavaScript, 后端使用Django框架.
+  \item 本网站实现了注册登录、热门推荐、最新评价、检索、图文展示、评分等功能.
+\end{zitemize}
+
+\section{荣誉奖项}
+\begin{zitemize}
+  \item 上海交通大学致远荣誉奖学金(200名)\ztime{2020, 2021, 2022}
+  \item 2022年度“85届计算机系教育发展基金暨杨元庆教育基金”(8名)\ztime{2022}
+  \item 2020-2021学年国家励志奖学金 (1\%)\ztime{2021}
+  \item 上海交通大学2020-2021学年“三号学生”(1\%)\ztime{2021}
+\end{zitemize}
+
+\section{社团工作}
+\institution{800号电影社，上海交通大学}\\
+\textit{外联部} \ztime{2021年9月 --- 2022年8月}
+\begin{zitemize}
+  \item 负责活动场地的借用、租用及活动的签章，经费报销和拉取赞助.
+  \item 负责社团活动的组织、筹备与举办, 包括招新、社团展示等.
+\end{zitemize}
+
+\section{技能}
+\begin{tabular}[t]{ll}
+  \textbf{编程语言:} & C/C++, Python, HTML/CSS/JavaScript, Assembly (x86, ARM), MATLAB\\
+  \textbf{技术技能:} & GNU/Linux, Git, Vim, GDB, \LaTeX, Qt,  Pytorch\\
+  \textbf{兴趣爱好:} & 音乐, 电影，电竞 
+\end{tabular}
+
+\end{document}
